@@ -1,0 +1,169 @@
+@font-face {
+    font-family: font1;
+    src: url(./fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: font2;
+    src: url(./fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: font3;
+    src: url(./fonts/Montserrat-Light.ttf);
+}
+body{
+    background-image: url("../DIGITAL RESUME/bg.jpg");
+    background-size: cover;
+   
+}
+.resume-content{
+    margin: 10px 200px;
+    display: grid;
+    grid-template-columns: 1% 39% 1% 4% 55%;
+   
+}
+.imag img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-right:  10%;
+    margin-left: 25%;
+    margin-top: 5%;
+    align-content: center;
+   
+}
+.Academic{
+    padding-top: 40px;
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+}
+.resume-content .imag h5{
+    text-align: center;
+    color: rgb(6, 230, 62);
+
+}
+.imag,.Contact,.SS,.LK,.TS,.It,.d1,.d2{
+    background-color: rgb(15, 4, 63);
+}
+.Academic,.Cert,.WE,.Ex,.d3{
+    background-color: rgb(130, 233, 152);
+}
+.Academic,.Cert,.WE,.Ex{
+    padding-right: 5px;
+}
+.p1{
+    padding-left: 20px;
+}
+h1{
+    color: rgb(235, 229, 224);
+}
+.Contact h3{
+    color: rgb(196, 36, 175);
+}
+.Career h3{
+    color: rgb(21, 192, 21);
+}
+.LK h3{
+    color: rgb(196, 36, 175);
+}
+.It h3{
+    color: rgb(196, 36, 175);
+}
+hr{
+    color: rgb(204, 187, 38);
+    border:  rgb(28, 184, 119);;
+}
+p{
+    color: rgb(254, 254, 242);
+    font-family: font3;
+   
+}
+.Career p{
+    font-weight: bold;
+
+}
+.TS ul{
+    color: rgb(254, 254, 242);
+    font-family: font3;
+}
+.LK ul{
+    color: rgb(254, 254, 242);
+    font-family: font3;
+}
+.It ul{
+    color: rgb(254, 254, 242);
+    font-family: font3;
+}
+.Academic h3,h4,h5,ul{
+    color: rgb(36, 5, 61);
+}
+.Cert h3,h4,h5,ul{
+    color: rgb(36, 5, 61);
+}
+.WE h3,h4,h5,ul{
+    color:rgb(36, 5, 61);
+}
+.Ex h3,h4,h5,ul{
+    color: rgb(2, 1, 8);
+}
+.Academic h3{
+    padding-left: 8px;
+    background-color: rgb(255, 231, 212);
+    width: 400px;
+}
+.WE h3{
+    padding-left: 8px;
+    background-color: rgb(255, 231, 212);
+    width: 400px;
+}
+.Cert h3{
+    padding-left: 8px;
+    background-color: rgb(255, 231, 212);
+    width: 400px;
+}
+.Ex h3{
+    padding-left: 8px;
+    background-color: rgb(255, 231, 212);
+    width: 400px;
+}
+h1{
+    font-family: font1;
+    font-weight: bold;
+}
+ul{
+    font-family: font3;
+}
+.fas,.fab{
+    color: rgb(254, 254, 242);
+    font-family: font3;
+}
+a{
+    text-decoration: none;
+    color: rgb(254, 254, 242);
+}
+.ic{
+   
+    display: grid;
+    grid-template-rows: 5% 20% 5% 20% 5% 20%  5% 20% 5%;
+   
+
+}
+.num,.email,.lnk,.loc{
+    display: grid;
+    grid-template-columns: 3% 70%;
+    grid-auto-flow: column;
+    color: rgb(254, 254, 242);
+}
+.TS{
+    padding-top: 20px;
+}
+.ict{
+    font-family: font3;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.fas{
+    size: 40px;
+}
